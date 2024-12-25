@@ -1,0 +1,128 @@
+$font1: "Josefin Sans", Sans-serif;
+$font2: "Aleo", Sans-serif;
+$color1: #ffffff;
+$color2: #999999;
+$color3: #5474fd;
+$color4: #e8e8e8;
+$color5: #333333;
+
+.header {
+  background: url("/src/images/image1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  // max-width: 1770px;
+  width: 100%;
+  min-height: 820px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    color: $color1;
+    font-family: $font1;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 4.8px;
+    max-width: 342px;
+    width: 100%;
+    min-height: 26px;
+
+  }
+  p {
+    color: $color1;
+    font-family: $font1;
+    font-size: 22px;
+    font-weight: lighter;
+    line-height: 26px;
+    letter-spacing: 6.82px;
+    margin-top: -20px;
+    max-width: 380px;
+    width: 100%;
+    min-height: 26px;
+    text-align: center;
+  }
+  input[type="text"] {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    color: $color2;
+    font-family: $font1;
+    float: left;
+    width: 503px;
+    // width: 100%;
+    min-height: 35px;
+    text-align: center;
+  }
+  input:hover {
+    background-color: lightgray;
+  }
+  button {
+    float: right;
+    width: 153px;
+    // width: 20%;
+    min-height: 60px;
+    padding: 10px;
+    background: $color3;
+    color: $color1;
+    font-size: 14px;
+    font-family: $font2;
+    font-weight: lighter;
+    line-height: 26px;
+    letter-spacing: 1.4px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: $color2;
+  }
+
+  .searchIcon{
+    margin-left: 5px;
+  }
+
+  form::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+.scroll-down {
+  max-width: 108px;
+  width: 100%;
+  min-height: 46px;
+  margin-top: 50px;
+  margin-left: -50px;
+  // border: 2px solid;
+
+  a {
+    max-width: 123px;
+    width: 100%;
+    min-height: 26px;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    color: $color1;
+    font-family: $font1;
+    margin: auto;
+    text-decoration: none;
+  }
+  .scrollDownIcon {
+    max-width: 13.5px;
+    width: 100%;
+    min-height: 7.66px;
+    margin: auto;
+    display: block;
+    color: $color1;
+    font-size: 20px;
+  }
+}
+.scroll-down:hover {
+  cursor: pointer;
+}

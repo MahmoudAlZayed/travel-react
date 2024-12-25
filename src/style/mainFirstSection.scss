@@ -1,0 +1,114 @@
+.main-section1 {
+  background: url("../images/image2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  // max-width: 1770px;
+  width: 100%;
+  min-height: 685px;
+  // display: grid;
+  // grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  h2 {
+    max-width: 288px;
+    width: 100%;
+    min-height: 26px;
+    line-height: 26px;
+    font-size: 36px;
+    font-family: $font1;
+    color: $color1;
+  }
+  p {
+    max-width: 560px;
+    width: 100%;
+    min-height: 158px;
+    font-size: 16px;
+    font-family: $font1;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    color: $color4;
+  }
+  span {
+    display: block;
+    margin-top: 30px;
+  }
+  button {
+    max-width: 228px;
+    width: 100%;
+    min-height: 63px;
+    font-size: 16px;
+    font-family: $font2;
+    line-height: 26px;
+    letter-spacing: 1.2px;
+    background-color: $color3;
+    color: $color1;
+    border: none;
+  }
+  button:hover {
+    color: lightgray;
+    cursor: pointer;
+  }
+  img {
+    display: block;
+  }
+  .main-section1-images {
+    align-self: flex-start;
+  }
+  .image3 {
+    margin-top: 50px;
+    max-width: 350px;
+    width: 100%;
+    min-height: 220px;
+  }
+  .image4 {
+    margin-top: 10px;
+    max-width: 350px;
+    width: 100%;
+    min-height: 220px;
+  }
+  .main-section-1-footer {
+    background-color: $color5;
+    // max-width: 1773px;
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    a {
+      max-width: 244px;
+      width: 100%;
+      min-height: 26px;
+      color: $color4;
+      font-size: 30px;
+      // line-height: 26px;
+      font-family: $font2;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+  .searchIcon {
+    color: $color3;
+    font-size: 50px;
+    display: block;
+    margin: auto;
+  }
+  .checkIcon {
+    color: #ff6363;
+    margin: auto;
+    font-size: 50px;
+    display: block;
+  }
+  .likeIcon {
+    color: blue;
+    margin: auto;
+    font-size: 50px;
+    display: block;
+  }
+}
